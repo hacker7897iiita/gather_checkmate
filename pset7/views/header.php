@@ -11,7 +11,7 @@
         <link href="/css/styles.css" rel="stylesheet"/>
 
         <?php if (isset($title)): ?>
-            <title>Gather: <?= htmlspecialchars($title) ?></title>
+            <title>Gather| <?= htmlspecialchars($title) ?></title>
         <?php else: ?>
             <title>Gather</title>
         <?php endif ?>
@@ -36,7 +36,7 @@
                 </div>
                 <?php if (!empty($_SESSION["id"])): ?>
                     <ul class="nav nav-pills">
-                        <li><a href="create.php"><i><strong>Create An Event</strong></i></a></li>
+                        <li><a href="organise.php"><i><strong>Organise An Event</strong></i></a></li>
                         <li><a href="change.php">Change Interests</a></li>
                         <li><a href="history.php">History</a></li>
                         <li><a href="about.php">About Us</a></li>
