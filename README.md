@@ -18,4 +18,6 @@ Default home page should be: "pset7/public/index.php"
 
 So configure your server accordingly.
 
+Configure the pset7/config.json to set your MySQL username and password.
+
 
