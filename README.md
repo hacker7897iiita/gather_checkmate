@@ -14,6 +14,8 @@ date, volunteering services, cool projects and many more.
 
 Technology stack used: PHP, MySQL, JavaScript, BootStrap, CSS, HTML
 
-Default home page should be: "public/index.php"
+Default home page should be: "pset7/public/index.php"
+
+So configure your server accordingly.
 
 
